@@ -13,6 +13,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<meta name="keywords" content="清華, 高中生, 大學生, 暑假, 營隊, 資工, 清大資工營 , 暑假" >
+	<meta http-equiv="Cache-Control" content="no-store" />
 	<!--META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"-->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
@@ -49,10 +50,6 @@
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
 
-		<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7j2_f4g9G9LwKTsqS_X0-WSxRUgU2PSg&callback=initMap">
-	</script>
-
 	<header id="header" role="banner">
 		<div class="main-nav">
 			<div class="container">
@@ -83,6 +80,7 @@
 							<li class="scroll"><a href="#event">聯絡我們</a></li>
 							<li class="scroll"><a href="#about">關於營隊</a></li>
 							<li class="scroll"><a href="#process">報名流程</a></li>
+							<li class="scroll"><a href="#mapSection">地圖</a></li>
 							<li class="scroll"><a href="#contact">留言板</a></li>
 							<li class="scroll"><a href="#twitter">粉絲專頁</a></li>
 						</ul>
@@ -492,16 +490,12 @@
 				</div>
 			</div>
 		</section><!--/#event-->
+		<section id="mapSection">
+			<div id="map"></div>
+		<section><!--map-->
 
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7j2_f4g9G9LwKTsqS_X0-WSxRUgU2PSg=initMap"async defer></script>
-		
 		<section id="contact">
-			<!--div id="map">
-				<div id="gmap-wrap">
-					<div id="gmap">
-					</div>
-				</div>
-			</div><!--/#map-->
+
 			<div class="contact-section">
 				<div class="ear-piece">
 					<img class="img-responsive" src="images/ear-piece.png" alt="">
@@ -515,12 +509,14 @@
 								<address>
 									E-mail: nthu.cscamp.2017@gmail.com<br>
 									Phone: 0988-825-238<br>
+									Tel: +886-3-5731217<br>
+									Fax: +886-3-5731201<br>
 								</address>
 							</div>
 							<div class="contact-address">
 								<h3>Contact</h3>
 								<address>
-									300新竹市東區光復路二段101號
+									國立清華大學資訊工程學系<br>30013新竹市光復路二段101號清大資工系台達館526室<br>
 								</address>
 							</div>
 						</div>
@@ -590,13 +586,16 @@
 
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/gmaps.js"></script>
 		<script type="text/javascript" src="js/smoothscroll.js"></script>
 		<script type="text/javascript" src="js/jquery.parallax.js"></script>
 		<script type="text/javascript" src="js/coundown-timer.js"></script>
 		<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 		<script type="text/javascript" src="js/jquery.nav.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/map.js"></script>
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH3wxMnlC8o7P5ovCQ5s5tDlIqMof4888&callback=initMap">
+		</script>
 
 		<footer id="footer">
 			<div class="container">

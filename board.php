@@ -5,6 +5,7 @@
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+	    <link rel="shortcut icon" href="images/short.ico">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
