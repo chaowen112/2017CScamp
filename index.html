@@ -31,11 +31,11 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    <script type="text/javascript">
+    <!--script type="text/javascript">
         $(document).ready(function() {
             ('iframe[src*="youtube.com"]').wrap('<div class="youtubecontent" />');
         });
-    </script>
+    </script-->
 </head>
 <!--/head-->
 
@@ -54,7 +54,46 @@
     </script>
 
     <header id="header" role="banner">
-        <div class="main-nav">
+        <nav class="navbar main-nav">
+            <div class="container">                
+                <!--div class="header-top">
+                    <div class="pull-right social-icons">
+                        <a href="https://www.facebook.com/NTHUComputerScienceCamp"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/NTHUComputerScienceCamp"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/NTHUComputerScienceCamp"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://www.facebook.com/NTHUComputerScienceCamp"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div-->
+                <div class="row" style="margin:10;">
+                    <div class="navbar-header nav-fixed-top">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="camp-nav">
+                            <span class-"icon-bar"></span>
+                            <span class-"icon-bar"></span>
+                            <span class-"icon-bar"></span>
+                            <span class-"icon-bar"></span>
+                            <span class-"icon-bar"></span>
+                            <span class-"icon-bar"></span>
+                            <span class-"icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img class="img-responsive d-inline-block align-top" src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="camp-nav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a herf="#home">首頁</a></li>
+                            <li class="scroll"><a href="#explore">報名倒數</a></li>
+                            <li class="scroll"><a href="#event">聯絡我們</a></li>
+                            <li class="scroll"><a href="#about">關於營隊</a></li>
+                            <li class="scroll"><a href="#process">報名流程</a></li>
+                            <li class="scroll"><a href="#mapSection">地圖</a></li>
+                            <li class="scroll"><a href="#twitter">粉絲專頁</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--div class="main-nav">
             <div class="container">
                 <div class="header-top">
                     <div class="pull-right social-icons">
@@ -90,7 +129,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
     </header>
     <!--/#header-->
 
@@ -531,14 +570,13 @@
             <section id="contact">
 
                 <div class="contact-section">
-                    <div class="ear-piece">
-                        <img class="img-responsive" src="images/ear-piece.png" alt="">
-                    </div>
+                    <!--div class="ear-piece">
+                        <img id='ear-piece' class="img-responsive" src="images/ear-piece.png" alt="">
+                    </div-->
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-3 col-sm-offset-4">
+                            <div class="col-sm-6">
                                 <div class="contact-text">
-                                    <br><br><br><br><br>
                                     <h3>聯絡資訊</h3>
                                     <address>
 									E-mail: nthu.cscamp.2017@gmail.com<br>
@@ -554,8 +592,12 @@
 								</address>
                                 </div>
                             </div>
-                            <div class="col-sm-5">
-                                <div id="contact-section">
+                            <div class="col-sm-6">
+                                    <iframe width="560" height="315" 
+                                        src="https://www.youtube.com/embed/3YI2MJT96vM" frameborder="0" 
+                                        allow="autoplay; encrypted-media" allowfullscreen>
+                                    </iframe>
+                                <!--div id="contact-section">
                                     <h3 style="color:white;"><strong>我想要留言!!!</strong></h3>
                                     <div class="status alert alert-success" style="display: none"></div>
                                     <form method="post" action="response.php">
@@ -577,10 +619,11 @@
                                         <div class="form-group">
                                             <button type="submit" class="btn btn-primary pull-right">提交</button>
                                         </div>
-                                    </form>
+                                    </form-->
                                 </div>
                             </div>
                         </div>
+                        <br>
                     </div>
                 </div>
             </section>
@@ -636,10 +679,6 @@
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/go2iT59sRQ8?ecver=1" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div-->
-
-            <div style='margin: auto auto; height: 500; max-height: 50%' align='center'>
-                <iframe width="576" height="480" src="https://www.youtube.com/embed/3YI2MJT96vM?ecver=1" frameborder="auto" allowfullscreen></iframe>
-            </div>
 
             <script type="text/javascript" src="js/jquery.js"></script>
             <script type="text/javascript" src="js/bootstrap.min.js"></script>

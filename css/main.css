@@ -84,7 +84,8 @@ h2 {
 }
 
 .main-nav {
-    position: absolute;
+    position: fixed;
+    top: 0px;
     width: 100%;
     z-index: 999;
 }
@@ -992,4 +993,8 @@ li.active:after {
     .btn-outline-rounded {
         padding: 12px 20px;
     }
+}
+
+.ear-piece{
+    opacity: 0.3
 }
